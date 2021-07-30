@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:imc_bloc/controllers/imc.bloc.dart';
 
 class MyHomePage extends StatelessWidget {
@@ -24,7 +25,7 @@ class MyHomePage extends StatelessWidget {
             TextFormField(
               controller: bloc.controllerPeso,
               keyboardType: TextInputType.number,
-              style: TextStyle(),
+              style: GoogleFonts.lato(),
               decoration: InputDecoration(labelText: "Peso (Kg) "),
             ),
             StreamBuilder(
