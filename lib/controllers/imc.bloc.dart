@@ -2,14 +2,9 @@ import 'dart:async';
 import 'dart:math';
 
 import 'package:flutter/material.dart';
+import 'package:imc_bloc/utils/enums.dart';
 
-class IMCType {
-  static String abaixo = "Abaixo do peso";
-  static String normal = "Normal";
-  static String sobrepesoI = "Sobrepeso I";
-  static String obesidade = "Obesidade II";
-  static String obesidadeGrave = "Obesidade Grave III";
-}
+
 
 class IMCBLoC {
   String resultado = "Resultado aparecerá aqui";
