@@ -8,8 +8,8 @@ import 'package:imc_bloc/utils/enums.dart';
 
 class IMCBLoC {
   String result = "Resultado aparecerá aqui";
-  TextEditingController heightController = TextEditingController();
-  TextEditingController weightController = TextEditingController();
+  final TextEditingController heightController = TextEditingController();
+  final TextEditingController weightController = TextEditingController();
 
   // ignore: close_sinks
   StreamController _streamController = StreamController<String>();
