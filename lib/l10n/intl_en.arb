@@ -1,0 +1,8 @@
+{
+  "thinness": "thinness",
+  "normal": "normal",
+  "overweight": "overweight",
+  "obesity": "obesity",
+  "severe_obesity": "severe obesity"
+
+}

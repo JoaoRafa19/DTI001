@@ -1,0 +1,7 @@
+{
+  "thinness": "magreza",
+  "normal": "normal",
+  "overweight": "sobrepeso",
+  "obesity": "obesidade",
+  "severe_obesity": "obesidade severa"
+}
