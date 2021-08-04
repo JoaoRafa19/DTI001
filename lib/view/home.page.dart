@@ -24,7 +24,7 @@ class MyHomePage extends StatelessWidget {
               decoration: BoxDecoration(
                   borderRadius: BorderRadius.all(Radius.circular(25))),
               child: TextFormField(
-                controller: bloc.controllerAltura,
+                controller: bloc.heightController,
                 keyboardType: TextInputType.number,
                 style: GoogleFonts.lato(),
                 decoration: InputDecoration(
@@ -41,7 +41,7 @@ class MyHomePage extends StatelessWidget {
               decoration: BoxDecoration(
                   borderRadius: BorderRadius.all(Radius.circular(25))),
               child: TextFormField(
-                controller: bloc.controllerPeso,
+                controller: bloc.weightController,
                 keyboardType: TextInputType.number,
                 style: GoogleFonts.lato(),
                 decoration: InputDecoration(
@@ -54,7 +54,7 @@ class MyHomePage extends StatelessWidget {
                   return Container(
                     padding: EdgeInsets.all(10),
                     child: Text(
-                      bloc.resultado,
+                      bloc.result,
                     ),
                   );
                 }),
