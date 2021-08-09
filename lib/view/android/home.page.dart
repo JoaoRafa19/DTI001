@@ -2,7 +2,9 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:imc_bloc/controllers/imc.bloc.dart';
+import 'package:imc_bloc/controllers/locale.provider.dart';
 import 'package:imc_bloc/generated/l10n.dart';
+import 'package:provider/provider.dart';
 
 class MyHomePage extends StatelessWidget {
   final IMCBLoC bloc = IMCBLoC();

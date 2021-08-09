@@ -16,6 +16,9 @@ class IMCBLoC {
   Sink get input => _streamController.sink;
 
   String calculaImc(BuildContext context, {double? height, double? weight}) {
+    if (height == null && weight == null && weightController.text == '' && heightController.text == '') {
+      return result;
+    }
     double heightInMeters = height != null ? height / 100 : int.parse(heightController.text) / 100;
     double pesoEmKg = weight != null ? weight : double.parse(weightController.text);
     double imc = pesoEmKg / pow(heightInMeters, 2);

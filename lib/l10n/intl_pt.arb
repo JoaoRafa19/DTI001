@@ -6,6 +6,6 @@
   "severe_obesity": "obesidade severa",
   "height": "Altura (cm) ",
   "weight": "Peso (Kg)",
-  "calculate": "Calcular",
-  "result_placeholder":"Resultado aparecerá aqui"
+  "calculate": "Calcular IMC",
+  "result_placeholder": "Resultado aparecerá aqui"
 }

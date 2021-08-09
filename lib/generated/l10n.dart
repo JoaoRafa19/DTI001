@@ -120,10 +120,10 @@ class Localization {
     );
   }
 
-  /// `Calcular`
+  /// `Calculate CMI`
   String get calculate {
     return Intl.message(
-      'Calcular',
+      'Calculate CMI',
       name: 'calculate',
       desc: '',
       args: [],
