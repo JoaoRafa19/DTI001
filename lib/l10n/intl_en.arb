@@ -3,6 +3,9 @@
   "normal": "normal",
   "overweight": "overweight",
   "obesity": "obesity",
-  "severe_obesity": "severe obesity"
-
+  "severe_obesity": "severe obesity",
+  "height": "Height (cm)",
+  "weight": "Weight (Kg)",
+  "calculate": "Calcular",
+  "result_placeholder":"Result will appear here"
 }

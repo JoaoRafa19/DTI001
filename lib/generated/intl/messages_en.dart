@@ -21,11 +21,16 @@ class MessageLookup extends MessageLookupByLibrary {
 
   final messages = _notInlinedMessages(_notInlinedMessages);
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
+        "calculate": MessageLookupByLibrary.simpleMessage("Calcular"),
+        "height": MessageLookupByLibrary.simpleMessage("Height (cm)"),
         "normal": MessageLookupByLibrary.simpleMessage("normal"),
         "obesity": MessageLookupByLibrary.simpleMessage("obesity"),
         "overweight": MessageLookupByLibrary.simpleMessage("overweight"),
+        "result_placeholder":
+            MessageLookupByLibrary.simpleMessage("Result will appear here"),
         "severe_obesity":
             MessageLookupByLibrary.simpleMessage("severe obesity"),
-        "thinness": MessageLookupByLibrary.simpleMessage("thinness")
+        "thinness": MessageLookupByLibrary.simpleMessage("thinness"),
+        "weight": MessageLookupByLibrary.simpleMessage("Weight (Kg)")
       };
 }

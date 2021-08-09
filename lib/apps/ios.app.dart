@@ -11,8 +11,9 @@ class IOSMyApp extends StatelessWidget {
       theme: CupertinoThemeData(
         primaryColor: CupertinoColors.activeBlue
       ),
+      supportedLocales: Localization.delegate.supportedLocales,
       localizationsDelegates: [
-        S.delegate,
+        Localization.delegate,
         GlobalCupertinoLocalizations.delegate,
         GlobalWidgetsLocalizations.delegate
       ],
