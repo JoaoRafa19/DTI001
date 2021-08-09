@@ -1,20 +1,9 @@
+import 'dart:io';
+
 import 'package:flutter/material.dart';
-import 'package:imc_bloc/view/home.page.dart';
+import 'package:imc_bloc/apps/android.app.dart';
+import 'package:imc_bloc/apps/ios.app.dart';
 
 void main() {
-  runApp(MyApp());
-}
-
-class MyApp extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Flutter Demo',
-      debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
-      home: MyHomePage(),
-    );
-  }
+  runApp(Platform.isIOS ? IOSMyApp() : AndroidMyApp());
 }

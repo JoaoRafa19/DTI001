@@ -1,0 +1,11 @@
+{
+  "thinness": "thinness",
+  "normal": "normal",
+  "overweight": "overweight",
+  "obesity": "obesity",
+  "severe_obesity": "severe obesity",
+  "height": "Height (cm)",
+  "weight": "Weight (Kg)",
+  "calculate": "Calculate CMI",
+  "result_placeholder": "Result will appear here"
+}

@@ -1,0 +1,11 @@
+{
+  "thinness": "magreza",
+  "normal": "normal",
+  "overweight": "sobrepeso",
+  "obesity": "obesidade",
+  "severe_obesity": "obesidade severa",
+  "height": "Altura (cm) ",
+  "weight": "Peso (Kg)",
+  "calculate": "Calcular IMC",
+  "result_placeholder": "Resultado aparecerá aqui"
+}
