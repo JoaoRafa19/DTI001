@@ -63,6 +63,10 @@ class MyHomePage extends StatelessWidget {
           ],
         ),
       ),
+      // floatingActionButton: FloatingActionButton(
+      //   onPressed: () => Provider.of<LocaleProvider>(context, listen: false).switchLocale(),
+      //   child: Icon(Icons.flag),
+      // ),
     );
   }
 }
